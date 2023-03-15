@@ -1,15 +1,125 @@
+/*contenedor*/
 .container {
   display: flex;
   margin: 10px 40px;
   padding: 10px;
+  
 }
+/**/
+/*titulo Listado de Detenciones*/
 .container-title {
   display: flex;
   margin-top: 10px;
   margin-bottom: 10px;
   justify-content: flex-start;
   gap: 10px;
+
 }
-.container-title h1{
+/*titulo Totales*/
+.container-title h2{
   display: contents;
+}
+/*contenedor de totales*/
+.totales{
+  position: relative;
+  left:10px;
+  top:50px;
+}
+/**/
+/*tabla principal*/
+table {
+  width: 95%;
+}
+
+th{
+  background-color: #3f51b5;;
+  width: 25%;
+  color:#ffffff;
+  text-align: center;
+  border-right: 1px solid #ffffff;
+}
+td{
+  font-size: 11px;
+}
+/**/
+/*para colorear a los dias mayores que 30*/
+.marcar_dias .dias{
+  color:red;
+  font-weight: bold;
+}
+/**/
+/*expandir contenedor*/
+tr.example-detail-row {
+  height: 0;
+}
+
+tr.example-element-row:not(.example-expanded-row):hover {
+  background: whitesmoke;
+}
+
+tr.example-element-row:not(.example-expanded-row):active {
+  background: #efefef;
+}
+
+.example-element-row td {
+  border-bottom-width: 0;
+}
+.example-element-detail {
+  overflow: hidden;
+  display: flex;
+}
+.example-element-diagram {
+  min-width: 80px;
+  border: 1px solid black;
+  padding:15px;
+  font-weight: lighter;
+  margin: 15px 0;
+  height: 64px;
+}
+.example-element-description {
+  padding: 10px;
+  margin-left: 20px;
+}
+.example-element-description-attribution {
+  opacity: 0.8;
+}
+/**/
+/**/
+.mat-raised-button{
+  background-color:#3f51b5;
+ font-size: 10px;
+}
+.mat-icon-button{
+  width: 10%;
+}
+/**/
+/*resaltar filas de menores de 18*/
+.marcar_edad{
+  background-color: rgb(124, 177, 236);
+}
+/**/
+campo de observaciones
+.mat-form-fiel{
+  display: none;
+  width: 80px;
+}
+/**/
+/*boton gurdar reporte*/
+.botonG{
+  float: right;
+}
+/**/
+/*boton guardar*/
+.mat-raised-button{
+  font-size: 12px;
+}
+/**/
+/*lista de totales*/
+.lista2{
+  padding: 15px;
+}
+/**/
+/*lista de detenciones*/
+.lista1{
+  padding: 15px;
 }

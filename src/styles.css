@@ -2,3 +2,16 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.error {
+    background-color: #cc0000;
+    color: #ffffff;
+    width: 200px;
+    height: 100px;
+}
+
+.exito {
+    background-color:#00cc00;
+    color: #ffffff;
+    width: 200px;
+    height: 100px;
+}

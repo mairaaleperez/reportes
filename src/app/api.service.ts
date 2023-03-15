@@ -13,5 +13,5 @@ export class ApiService {
   getDetenciones(): Observable<any[]>{
     return this.httpClient.get<any[]>(`${environment.baseURL}detenciones.json`);
   }
-  
+ 
 }
